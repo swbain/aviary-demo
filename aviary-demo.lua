@@ -22,4 +22,3 @@ end
 function enc(n, d)
     aviary.enc(n, d)
 end
-
