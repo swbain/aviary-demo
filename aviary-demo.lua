@@ -1,6 +1,8 @@
 -- aviary-demo
---
+-- v1.0.0
 -- @pavlovsfrog
+--
+-- demo of aviary lib
 
 local aviary = include 'aviary/aviary'
 
@@ -13,7 +15,7 @@ function redraw()
     aviary.redraw()
 end
 
--- function key(n, z)
+function key(n, z)
     aviary.key(n, z)
 end
 
